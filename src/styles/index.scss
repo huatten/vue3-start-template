@@ -1,0 +1,11 @@
+// 格式化浏览器默认样式
+@import './reset.scss';
+
+// 全局样式
+@import './global.scss';
+
+// tailwindcss
+@import './tailwind.scss';
+
+// tDesign组件库的少量全局样式变量
+@import 'tdesign-vue-next/es/style/index.css';

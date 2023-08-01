@@ -3,7 +3,6 @@ node_modules
 *.md
 *.woff
 *.ttf
-*.cjs
 *.d.ts
 .vscode
 .idea
@@ -13,5 +12,4 @@ dist
 .husky
 .local
 /bin
-/src/mock/*
 index.html

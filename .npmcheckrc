@@ -1,0 +1,21 @@
+{
+    "depcheck": {
+        "ignoreMatches": [
+            "@babel/core",
+            "@babel/eslint-parser",
+            "@commitlint/cli",
+            "@commitlint/config-conventional",
+            "cz-git",
+            "eslint-define-config",
+            "postcss-html",
+            "postcss-import",
+            "stylelint-config-html",
+            "stylelint-config-recess-order",
+            "stylelint-config-recommended-scss",
+            "stylelint-config-recommended-vue",
+            "stylelint-config-standard",
+            "stylelint-config-standard-scss"
+       ]
+    }
+}
+

@@ -25,7 +25,7 @@ module.exports = defineConfig({
     'plugin:vue/vue3-strongly-recommended',
     'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended',
-    './.eslintrc-auto-import.json' 
+    './.eslintrc-auto-import.json',
   ],
   rules: {
     // 禁止使用多余的包

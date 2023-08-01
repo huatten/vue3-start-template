@@ -71,7 +71,7 @@ vue3-start-template 基于 Vue3.3、Vite4、Pinia 开发构建用于初始化项
 ### 文件资源目录 📚
 
 ```text
-course-base
+vue3-start-template
 ├─ .vscode                # VSCode 推荐配置
 ├─ public                 # 静态资源文件（该文件夹不会被打包）
 ├─ src
@@ -80,7 +80,7 @@ course-base
 │  ├─ components          # 全局组件
 │  ├─ config              # 全局配置项
 │  ├─ directives          # 全局指令文件
-│  ├─ hooks               # 常用
+│  ├─ hooks               # hooks封装
 │  ├─ routers             # 路由管理
 │  ├─ stores              # pinia store
 │  ├─ styles              # 全局样式文件
@@ -88,18 +88,20 @@ course-base
 │  ├─ views               # 项目所有页面
 │  ├─ App.vue             # 项目主组件
 │  ├─ main.js             # 项目入口文件
+├─ .commitlintrc.js       # commit提交规范配置
 ├─ .editorconfig          # 统一不同编辑器的编码风格
 ├─ .eslintignore          # 忽略 Eslint 校验
-├─ .eslintrc.cjs          # Eslint 校验配置文件
+├─ .eslintrc.js           # Eslint 校验配置文件
 ├─ .gitignore             # 忽略 git 提交
+├─ .npmcheckrc            # npm包检查忽略文件
 ├─ .prettierignore        # 忽略 Prettier 格式化
-├─ .prettierrc.cjs        # Prettier 格式化配置
+├─ .prettierrc.js         # Prettier 格式化配置
 ├─ .stylelintignore       # 忽略 stylelint 格式化
-├─ .stylelintrc.cjs       # stylelint 样式格式化配置
+├─ .stylelintrc.js        # stylelint 样式格式化配置
 ├─ index.html             # 入口 html
 ├─ package-lock.json      # 依赖包包版本锁
 ├─ package.json           # 依赖包管理
-├─ postcss.config.cjs     # postcss 配置
+├─ .postcssrc.js          # postcss 配置
 ├─ README.md              # README 介绍
 ├─ CHANGELOG.md           # 更新日志
 └─ vite.config.js         # vite 全局配置文件

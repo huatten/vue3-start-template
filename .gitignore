@@ -14,7 +14,6 @@ dist-ssr
 coverage
 *.local
 
-.eslintrc-auto-import.json
 
 /cypress/videos/
 /cypress/screenshots/
@@ -31,3 +30,7 @@ coverage
 
 # Typescript declare
 *d.ts
+
+# Json
+package-lock.json
+.eslintrc-auto-import.json

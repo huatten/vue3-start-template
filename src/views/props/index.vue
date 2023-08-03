@@ -8,6 +8,11 @@ const props = defineProps({
     default: () => ({}),
   },
 })
-// eslint-disable-next-line vue/no-setup-props-destructure
+
+// 推荐
+const element = toRef(() => props.element)
+console.log(element)
+
+// 不推荐
 console.log(props.element)
 </script>

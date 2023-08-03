@@ -301,5 +301,9 @@ module.exports = defineConfig({
      * props 必须指定默认值
      */
     'vue/require-default-prop': 'error',
+    /**
+     * 禁止解构props eslint-plugin-vue v9.16.0 调整 https://github.com/vuejs/eslint-plugin-vue/issues/2259
+     */
+    'vue/no-setup-props-destructure': 'off',
   },
 })

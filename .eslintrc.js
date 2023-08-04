@@ -185,6 +185,8 @@ module.exports = defineConfig({
         caughtErrors: 'none',
       },
     ],
+    // 禁止未使用过的表达式
+    'no-unused-expressions': ['off', { allowShortCircuit: true, allowTernary: true, allowTaggedTemplates: true }],
 
     // vue eslint https://eslint.vuejs.org/
 

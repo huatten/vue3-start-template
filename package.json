@@ -10,6 +10,7 @@
     "lint:eslint": "eslint --ext .vue,.js,jsx,.ts,.tsx ./ --max-warnings 0 --cache --cache-location node_modules/.cache/eslint/ --fix",
     "lint:stylelint": "stylelint --cache --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
     "lint": "npm run lint:eslint && npm run lint:stylelint",
+    "format": "prettier --write .",
     "clean": "rimraf node_modules",
     "prepare": "husky install",
     "commit": "git add -A && git cz && git push",

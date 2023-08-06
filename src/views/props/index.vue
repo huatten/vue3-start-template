@@ -14,5 +14,6 @@ const element = toRef(() => props.element)
 console.log(element)
 
 // 不推荐
+// eslint-disable-next-line vue/no-setup-props-destructure
 console.log(props.element)
 </script>

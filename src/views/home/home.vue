@@ -20,6 +20,3 @@
     <div class="item bg-gray-500 text-white text-center">6</div>
   </div>
 </template>
-<script setup></script>
-
-<style></style>

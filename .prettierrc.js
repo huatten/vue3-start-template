@@ -1,3 +1,6 @@
+/**
+ * @see https://prettier.io/docs/en/options.html
+ */
 module.exports = {
   // 一行最多 120 字符
   printWidth: 120,

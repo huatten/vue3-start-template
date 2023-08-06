@@ -1,6 +1,6 @@
 # vue3-start-template
 
-<h1 align="center"><a href="https://gitee.com/jinhua5/vue3-start-template" target="_blank">Vite4 - Vue3 - Pinia Start Template</a></h1>
+<h1 align="center"><a href="https://github.com/huatten/vue3-start-template" target="_blank">Vite4 - Vue3 - Pinia Start Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/">

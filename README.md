@@ -43,7 +43,7 @@ vue3-start-template 基于 Vue3.3、Vite4、Pinia 开发构建用于初始化项
 + 🎨 [Sass](https://github.com/scss/scss.js) - It's CSS, with just a little more
 + 🔗 [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 + 🧰 [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) - Git Hook Tools
-+ 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.org) + [Prettier](https://prettier.io) + [Stylelint](https://stylelint.io) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation) - Code Standards
++ 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.org) + [Prettier](https://prettier.io) + [Stylelint](https://stylelint.io) + [AlloyTeam JavaScript Style Guide](https://github.com/AlloyTeam/eslint-config-alloy/tree/master) - Code Standards
 + 🔨 [Commitizen](https://cz-git.qbb.sh/zh) + [Commitlint](https://commitlint.js.org) - Submit Standards
 
 ### 代码规范格式化 🔨

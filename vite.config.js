@@ -13,9 +13,9 @@ import { TDesignResolver } from 'unplugin-vue-components/resolvers'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import autoprefixer from 'autoprefixer'
 import tailwindcss from 'tailwindcss'
+import { viteMockServe } from 'vite-plugin-mock'
 
-// const url = "http://123.249.80.10:30228/"; //开发
-const url = 'http://123.249.80.10:31228/' // 测试
+const url = 'http://localhost:8989/' // 本地mock
 
 export default defineConfig(({ command }) => {
   const isBuild = command === 'build'
@@ -46,6 +46,11 @@ export default defineConfig(({ command }) => {
             library: 'vue-next',
           }),
         ],
+      }),
+      // Mock服务
+      viteMockServe({
+        mockPath: './src/mocks',
+        enable: true,
       }),
       // 监听配置文件修改自动重启Vite
       ViteRestart({

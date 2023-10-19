@@ -14,6 +14,11 @@ module.exports = defineConfig({
   plugins: ['vue'],
   parser: 'vue-eslint-parser',
   parserOptions: {
+    babelOptions: {
+      parserOpts: {
+        plugins: ['jsx'],
+      },
+    },
     ecmaVersion: 'latest',
     sourceType: 'module',
     allowImportExportEverywhere: true,

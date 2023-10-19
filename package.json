@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": "false",
   "scripts": {
-    "preinstall": "npx only-allow yarn",
+    "preinstall": "npx only-allow pnpm",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -18,12 +18,12 @@
   },
   "dependencies": {
     "nprogress": "^0.2.0",
-    "pinia": "^2.1.6",
+    "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.0",
     "tailwindcss": "^3.3.3",
-    "tdesign-vue-next": "^1.5.6",
+    "tdesign-vue-next": "^1.6.3",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.22.20",
@@ -37,10 +37,10 @@
     "cz-git": "^1.7.1",
     "eslint": "^8.49.0",
     "eslint-config-alloy": "^5.1.2",
-    "eslint-define-config": "^1.23.0",
+    "eslint-define-config": "^1.24.1",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
+    "lint-staged": "^15.0.2",
     "mockjs": "^1.1.0",
     "only-allow": "^1.1.1",
     "postcss": "^8.4.30",

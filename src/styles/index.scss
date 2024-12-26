@@ -1,14 +1,8 @@
 // 格式化浏览器默认样式
-@import './reset.scss';
+@use './reset.scss';
 
 // 全局样式
-@import './global.scss';
+@use './global.scss';
 
 // 过渡动画
-@import './transition.scss';
-
-// tailwindcss
-@import './tailwind.scss';
-
-// tDesign组件库的少量全局样式变量
-@import 'tdesign-vue-next/es/style/index.css';
+@use './transition.scss';

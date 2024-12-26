@@ -1,6 +1,6 @@
 # vue3-start-template
 
-<h1 align="center"><a href="https://github.com/huatten/vue3-start-template" target="_blank">Vite4 - Vue3 - Pinia Start Template</a></h1>
+<h1 align="center"><a href="https://github.com/huatten/vue3-start-template" target="_blank">Vite5 - Vue3.5 - Pinia Start Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/">
@@ -31,17 +31,17 @@
 
 ### 介绍 📖
 
-vue3-start-template 基于 Vue3.3、Vite4、Pinia 开发构建用于初始化项目的模板。
+vue3-start-template 基于 Vue3.5、Vite5、Pinia、Naive-ui 开发构建用于初始化项目的模板。
 
 ### 特性概览 🎨
 
-+ ⚡️ [Vite 4](https://github.com/vitejs/vite) - born with fastness
++ ⚡️ [Vite 5](https://github.com/vitejs/vite) - born with fastness
 + 🖖 [Vue 3](https://github.com/vuejs/core) - Composition API and `<script setup>`
 + 🚦 [Vue Router](https://github.com/vuejs/router) - The official router for Vue.js.
 + 📦 [Pinia](https://github.com/vuejs/pinia) - Intuitive, type safe and flexible Store for Vue
 + 💻 [TDesign](https://github.com/Tencent/tdesign-vue-next) - Vue Next for Web
 + 🎨 [Sass](https://github.com/scss/scss.js) - It's CSS, with just a little more
-+ 🔗 [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
++ 🔗 [Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch) - Fetch is the modern replacement for XMLHttpRequest
 + 🧰 [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) - Git Hook Tools
 + 🛡️ [EditorConfig](http://editorconfig.org) + [ESLint](http://eslint.org) + [Prettier](https://prettier.io) + [Stylelint](https://stylelint.io) + [AlloyTeam JavaScript Style Guide](https://github.com/AlloyTeam/eslint-config-alloy/tree/master) - Code Standards
 + 🔨 [Commitizen](https://cz-git.qbb.sh/zh) + [Commitlint](https://commitlint.js.org) - Submit Standards
@@ -104,5 +104,5 @@ vue3-start-template
 ├─ .postcssrc.js          # postcss 配置
 ├─ README.md              # README 介绍
 ├─ CHANGELOG.md           # 更新日志
-└─ vite.config.js         # vite 全局配置文件
+└─ vite.config.mjs         # vite 全局配置文件
 ```

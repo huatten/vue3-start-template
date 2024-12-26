@@ -13,3 +13,6 @@
 /public/*
 public/*
 /node_modules/
+
+# 测试文件
+visualizer.html
